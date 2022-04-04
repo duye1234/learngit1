@@ -33,8 +33,6 @@ public:
   
   Test (const std::string& testName, const std::string& filename, long lineNumber, bool safeCheck);
  
-
-
   void      setNext(Test *test);
   Test      *getNext () const;
   std::string    getName() const {return name_;}
