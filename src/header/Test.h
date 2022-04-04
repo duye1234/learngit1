@@ -30,7 +30,7 @@ class TestResult;
 class Test
 {
 public:
-  Test (const std::string& testName);
+  
   Test (const std::string& testName, const std::string& filename, long lineNumber, bool safeCheck);
  
 
