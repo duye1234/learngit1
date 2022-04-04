@@ -32,9 +32,7 @@ class Test
 public:
   Test (const std::string& testName);
   Test (const std::string& testName, const std::string& filename, long lineNumber, bool safeCheck);
-  virtual ~Test() {};
-
-  virtual void  run (TestResult& result) = 0;
+ 
 
 
   void      setNext(Test *test);
