@@ -24,7 +24,7 @@
 #pragma once
 
 #include <string>
-
+yedu
 class Failure
 {
 
