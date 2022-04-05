@@ -17,11 +17,16 @@
 
 #include <boost/lexical_cast.hpp>
 
+<<<<<<< HEAD
 
 duye 
 shuai
 
 
+=======
+duye
+shuai
+>>>>>>> 689fded80e8562bbec75411adf1eaacc4f5c0499
 Test::Test (const std::string& testName)
   : name_ (testName), next_(0), lineNumber_(-1), safeCheck_(true)
 {
