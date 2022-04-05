@@ -17,6 +17,8 @@
 
 #include <boost/lexical_cast.hpp>
 
+duye
+shaui
 Test::Test (const std::string& testName)
   : name_ (testName), next_(0), lineNumber_(-1), safeCheck_(true)
 {
